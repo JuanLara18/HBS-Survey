@@ -64,7 +64,7 @@ This repository contains an analysis of implementation patterns and quality diff
 
 1. Clone the repository and set up the required environment.
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/JuanLara18/HBS-Survey>
    cd HBS-SURVEY
    pip install -r requirements.txt
    ```
