@@ -1,149 +1,120 @@
-# Documentation
+# Technical Documentation of Analysis Pipeline
 
-## Objective
-This project aims to analyze differences between **Upskilling (US)** and **Reskilling (RS)** programs using machine learning (ML), clustering, and statistical validation techniques.
+## Dataset Overview
+The analysis is performed on a dataset containing information about Upskilling (US) and Reskilling (RS) programs, stored in "V1_qualflags_analysis2_ML.dta".
 
----
+## 1. XGBoost Feature Analysis (`01_xgboost_feature_analysis.py`)
 
-## 1. `01_xgboost_feature_analysis.ipynb`
+### Data Used
+- **Full Dataset Analysis:**
+  - All variables including dummy variables
+  - Target variable: Program type (Reskilling = 1, Upskilling = 0)
+- **Program Characteristics Analysis:**
+  - Only variables with prefix 'p_'
+  - Excludes outcome variables
 
-### Objective:
-Identify the most important features differentiating US and RS programs using XGBoost and SHAP.
+### Key Results
+- Model Performance:
+  - Training AUC: 0.964
+  - Validation AUC: 0.884
+- Precision: 0.743
+- Recall: 0.690
+- F1 Score: 0.716
 
-### Methods:
-1. **Data used:**
-   - All available data (dummy and categorical variables).
-   - Separate analysis excluding outcomes (program characteristics with prefix `p_`).
-2. **Model:**
-   - XGBoost classifier with cross-validation.
-   - Metrics: AUC-ROC to evaluate performance.
-3. **Interpretability:**
-   - SHAP for feature importance analysis.
+### Visualizations
+- SHAP summary plots for top 10 and 20 features
+- Feature importance bar plots
+- ROC curves
 
-### Results:
-- **AUC-ROC:**
-  - Training: 0.964
-  - Validation: 0.884
-- **Key features:**
-  - Negative ROI: Strongest predictor of US.
-  - Cross-departmental networks: Consistently important for both.
-  - Higher eligibility criteria: Strongly linked to RS.
-- **Outputs:**
-  - SHAP importance plots (Top 10 and 20 features).
+## 2. UMAP Clustering (`02_umap_clustering.py`)
 
----
+### Data Used
+- Program-specific variables (prefix 'p_')
+- Excludes outcome variables
+- Data is preprocessed using dummy variables
 
-## 2. `02_umap_clustering.ipynb`
+### Analysis Steps
+1. UMAP dimensionality reduction
+2. K-means clustering with k=2 and k=3
+3. Cluster evaluation using:
+   - Elbow method
+   - Silhouette scores
 
-### Objective:
-Perform dimensionality reduction using UMAP and cluster analysis with K-means.
+### Results
+- **2-Cluster Solution:**
+  - Cluster 0: 80 programs
+  - Cluster 1: 100 programs
+- **3-Cluster Solution:**
+  - Cluster 0: 60 programs
+  - Cluster 1: 70 programs
+  - Cluster 2: 50 programs
 
-### Methods:
-1. **Data used:**
-   - Program-specific variables (`p_`) without outcomes.
-2. **Techniques:**
-   - UMAP for 2D projection.
-   - K-means for clustering (2 and 3 clusters).
-   - Optimal number of clusters checked using:
-     - Elbow method.
-     - Silhouette score.
+### Visualizations
+- UMAP 2D projections with cluster colorings
+- Elbow plot
+- Silhouette score plot
 
-### Results:
-- **Cluster descriptions:**
-  - **2 clusters:** Basic vs Advanced programs.
-  - **3 clusters:** Basic, Intermediate, and Advanced programs.
-- **Cluster characteristics:**
-  - Basic: Short programs, limited funding, fewer KPIs.
-  - Intermediate: Balance of funding and duration.
-  - Advanced: Long programs, high funding, multiple KPIs.
-- **Outputs:**
-  - UMAP scatterplots for cluster visualization.
+## 3. Cluster Statistical Tests (`03_cluster_statistical_tests.py`)
 
----
+### Data Used
+Two separate analyses are performed:
+1. **With Dummy Variables:**
+   - All program characteristics
+   - Binary encoded categorical variables
+2. **Without Dummy Variables:**
+   - Only continuous variables
+   - Original categorical variables
 
-## 3. `03_cluster_statistical_tests.ipynb`
+### Analyses Performed
+For each clustering solution (2 and 3 clusters):
+- ANOVA tests (3 clusters)
+- T-tests (2 clusters)
+- Mean comparisons
+- Standard deviation calculations
 
-### Objective:
-Statistically validate the clusters identified in the previous file.
+### Results
+Four distinct results tables are generated:
+1. 2-cluster analysis with dummy variables
+2. 2-cluster analysis without dummy variables
+3. 3-cluster analysis with dummy variables
+4. 3-cluster analysis without dummy variables
 
-### Methods:
-1. **Data used:**
-   - Program-specific variables (`p_`), excluding outcomes.
-2. **Statistical tests:**
-   - **ANOVA:** For differences across 3 clusters.
-   - **T-tests:** For pairwise comparisons between 2 clusters.
+Each table includes:
+- Feature names
+- Mean and SD for each cluster
+- P-values from statistical tests
 
-### Results:
-- **Significant variables:**
-  - Program duration, funding, and eligibility.
-- **P-values:**
-  - Clear statistical differences across clusters, validating the results.
-- **Outputs:**
-  - Tables summarizing means, standard deviations, and p-values for key variables.
+## 4. Program Feature Analysis (`Feature_Importance_Program_Chars.py`)
 
----
+### Data Used
+- Only program characteristics (prefix 'p_')
+- Excludes all outcome variables
+- Variables described in label_mapping dictionary
 
-## 4. `04_program_feature_analysis.ipynb`
+### Analysis
+- XGBoost classifier focusing on program features
+- SHAP analysis for feature importance
+- Cross-validation for model evaluation
 
-### Objective:
-Explore specific program features and their impact on US vs RS classification.
+### Results
+- Model Performance:
+  - AUC score: 0.779
+  - Precision: 0.736
+  - Recall: 0.690
+  - F1 Score: 0.712
 
-### Methods:
-1. **Data used:**
-   - Program characteristics (`p_`) only, excluding outcomes.
-2. **Analysis:**
-   - Detailed examination of feature distributions between US and RS.
+### Top Features
+1. dd_design_board (0.113)
+2. k_review_emp (0.032)
+3. inc_wrk_job (0.031)
+[Complete list in results]
 
-### Results:
-- **Reskilling programs (RS):**
-  - Longer duration, higher eligibility, and use of certifications.
-- **Upskilling programs (US):**
-  - Shorter duration, fewer participants, more incentives for managers.
-- **Outputs:**
-  - Boxplots and histograms comparing key features.
+### Visualizations
+- SHAP summary plots
+- Feature importance rankings
+- ROC curve
 
----
-
-## 5. `Feature_Importance_Program_Chars.ipynb`
-
-### Objective:
-Re-run feature importance analysis, excluding all outcome variables.
-
-### Methods:
-1. **Data used:**
-   - Only program-specific characteristics (`p_`).
-2. **Model:**
-   - XGBoost with SHAP analysis for interpretability.
-
-### Results:
-- **Key features:**
-  - Program duration: Critical for RS.
-  - Manager incentives: Highly relevant for US.
-- **Outputs:**
-  - SHAP plots showing feature importance without outcomes.
-
----
-
-## Summary of Leila’s Key Points
-
-### ML Models (Feature Importance with SHAP):
-- Results for **all data** (dummy + categorical) and **only program characteristics** (`p_`).
-- Feature importance clearly identifies key predictors for US and RS programs.
-
-### Unsupervised Clustering:
-- **Optimal number of clusters:**
-  - Evaluated using the elbow method and silhouette scores.
-- Overlay of US and RS programs within clusters.
-
-### Descriptive Statistics:
-- For each cluster:
-  - **Mean, Standard Deviation, and P-value** from t-tests.
-- Clear differences in funding, duration, and KPIs validate clusters.
-
----
-
-## Next Steps
-1. Finalize results into formatted tables (e.g., LaTeX or Markdown for GitHub).
-2. Add overlay of US and RS labels to cluster visualizations.
-3. Review interaction effects between features for deeper insights.
-
+## Notes on Reproducibility
+- Random seed set to 42 across all analyses
+- Train/test split ratio: 80/20
+- Validation set split: 20% of training data
