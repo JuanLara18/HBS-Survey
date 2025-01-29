@@ -5,24 +5,29 @@ Author: Juan Lara
 Date: January 2025
 ==============================================================================*/
 
-* Set working directory to project root and preferences
 clear all
 set more off
-cd ".."  // Move up one level from Code directory
 
 /*------------------------------------------------------------------------------
 Import and Prepare Data
 ------------------------------------------------------------------------------*/
 use "Data/V1_qualflags_analysis2_ML.dta", clear
 
+* Examine program variable
+describe program
+tab program
+
 * Keep only program-related variables and program type
 ds p_*
 local program_vars `r(varlist)'
 keep program `program_vars'
 
-* Create dummy for program type (1 = Reskilling, 0 = Upskilling)
-gen program_type = (program == "Reskilling")
-label var program_type "Reskilling=1, Upskilling=0"
+* Create program type indicator using numeric values
+gen program_type = (program == 3) if !missing(program)
+label var program_type "Program Type (1=Reskilling, 0=Upskilling)"
+
+* Drop General programs (program == 1)
+drop if program == 1
 
 /*------------------------------------------------------------------------------
 Data Cleaning and Preprocessing
@@ -30,16 +35,16 @@ Data Cleaning and Preprocessing
 * Check for missing values
 misstable summarize
 
-* Handle missing values (replace with means for continuous, mode for categorical)
+* Handle missing values - Modified to handle long variable names
 foreach var of varlist `program_vars' {
-    * For continuous variables
+    * For numeric variables
     capture confirm numeric variable `var'
     if !_rc {
-        replace `var' = round(r(mean)) if missing(`var')
-    }
-    * For categorical variables
-    else {
-        replace `var' = mode if missing(`var')
+        * Create shortened version of variable name for mean calculation
+        local shortname = substr("`var'", 1, 20)
+        egen mean_`shortname' = mean(`var')
+        replace `var' = mean_`shortname' if missing(`var')
+        drop mean_`shortname'
     }
 }
 
@@ -84,9 +89,18 @@ foreach k in 2 3 4 {
 local stat_vars "p_program_length p_hourstrained p_cost p_part p_eligibility"
 foreach k in 2 3 {
     di "Mean characteristics for `k' clusters:"
-    table prog_clus`k', contents(mean `stat_vars') format(%9.2f)
+    tabstat `stat_vars', by(prog_clus`k') stat(mean sd n) col(stat)
 }
 
+foreach var of local stat_vars {
+    di "ANOVA for `var'"
+    oneway `var' prog_clus2, tabulate
+}
+
+foreach var of local stat_vars {
+    graph box `var', over(prog_clus2) title("`var' by Cluster")
+    graph export "cluster_`var'.png", replace
+}
 /*------------------------------------------------------------------------------
 Export Results
 ------------------------------------------------------------------------------*/
@@ -118,5 +132,69 @@ foreach var of local stat_vars {
 
 * Save workspace
 save "Output/Results/stata_clustering_results.dta", replace
+
+/*------------------------------------------------------------------------------
+Export Data for UMAP Analysis
+------------------------------------------------------------------------------*/
+* After clustering analysis but before visualizations
+preserve
+    * Keep relevant variables
+    keep program_type prog_clus2 prog_clus3 prog_clus4 `program_vars'
+    
+    * Export for Python
+    export delimited using "Results/temp_data_for_umap.csv", replace
+restore
+
+* Run Python script for UMAP
+********************************************************************************
+********************************************************************************
+* shell python Code/dimension_reduction.py
+********************************************************************************
+********************************************************************************
+
+/*------------------------------------------------------------------------------
+Import and Visualize UMAP Results
+------------------------------------------------------------------------------*/
+* Import UMAP coordinates
+preserve
+    * Import the data
+    import delimited "Results/umap_coordinates.csv", clear varnames(1)
+    
+    * Create scatter plots using UMAP coordinates
+    * By Program Type
+    twoway (scatter umap2 umap1 if program_type==0, mcolor(blue%50)) ///
+           (scatter umap2 umap1 if program_type==1, mcolor(red%50)), ///
+           title("UMAP Projection by Program Type") ///
+           subtitle("Unsupervised Clustering Results") ///
+           xtitle("UMAP Dimension 1") ///
+           ytitle("UMAP Dimension 2") ///
+           legend(order(1 "Upskilling" 2 "Reskilling")) ///
+           scheme(s2color)
+    graph export "Output/Figures/stata_analysis/umap_by_program_stata.png", replace
+    
+    * By Cluster Solutions
+    foreach k in 2 3 4 {
+        * Get unique values for coloring
+        levelsof cluster`k', local(levels)
+        local scatter_commands ""
+        local legend_order ""
+        local i = 1
+        
+        foreach l of local levels {
+            local scatter_commands "`scatter_commands' (scatter umap2 umap1 if cluster`k'==`l', mcolor("`=`i'+1'"*%50))"
+            local legend_order "`legend_order' `i' "`l'""
+            local ++i
+        }
+        
+        twoway `scatter_commands', ///
+            title("UMAP Projection with `k' Clusters") ///
+            subtitle("Cluster Analysis Results") ///
+            xtitle("UMAP Dimension 1") ///
+            ytitle("UMAP Dimension 2") ///
+            legend(order(`legend_order')) ///
+            scheme(s2color)
+        graph export "Output/Figures/stata_analysis/umap_cluster`k'_stata.png", replace
+    }
+restore
 
 exit
