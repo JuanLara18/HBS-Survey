@@ -79,6 +79,9 @@ label_mapping = {
     'f_union50': 'Firm: Union share over 50%',
     'fsub': 'Firm has subsidies',
     
+    'f_size_2500greater9999': "Firm Size: 2500-9999",
+    'sk_n_f_finance': "Included Skills: Financial Management",
+    
     # Role and HR variables
     'program': 'Program type',
     'm_role': 'Role of Respondent',
@@ -149,6 +152,7 @@ label_mapping = {
     'p_challenge_supportoutsideHR': 'Challenge - Getting the support of other corporate managers outside HR',
     'p_challenge_funding': 'Challenge - Finding adequate resources to fund the program',
     'p_challenge_other': 'Challenge - Other',
+    'p_challenge_newjob': 'Challenge -Finding new job',
     'p_cha_takeup': 'Challenge - Program takeup',
     'p_cha_during': 'Challenge - During program',
     'p_cha_support': 'Challenge - Program support',
@@ -432,91 +436,73 @@ label_mapping = {
     'p_responsibility_HR_Leaders': 'Responsibility: HR Leaders',
     'dd_design_mm': 'Design - Middle Managers',
     'p_hours_long': 'Program with long hours',
-    'p_roi_Negative_ROI': 'Program reports negative ROI'
+    'p_roi_Negative_ROI': 'Program reports negative ROI', 
+    
+    # Aditional
+    'sk_n_f_marketing': 'Sales and Marketing Skills Needed',
+    'p_target_middleemp': 'Program targets middle management and employees',
+    'f_medium': 'Medium Firm Size (100-999)',
+    'f_size_2500greater9999': 'Firm Size: 2500-9999',
+    'tr_sk_n_f_finance': 'Financial Management Skills - Included in Training',
+    'dd_extdesign_ta': 'External Designer - Trade Association',
+    'f_subsidy_Yes': 'Firm has subsidies',
+    'inc_emp1': 'Worker Incentive - Non-financial (group)',
+    'sk_n_f_customer': 'Customer Service Skills Needed',
+    'dd_delivery_External_and_Internal': 'Delivery - External and Internal',
+    'p_targetfunc_it_Not_Selected': 'Target Function: IT not selected',
+    'p_program_length': 'Program Length (Years)',
+    'p_part_exp': 'Expected Participation',
+    'p_hourstrained_50_-_99_hours': 'Program Duration: 50-99 hours',
+    'p_criteria_jobtitle': 'Selection Criteria: Job Title',
+    'p_part': 'Number of participants',
+    'p_eligibility': 'Participation Eligibility'
 }
 
 # Program-specific variables
 program_variables = [
-    # Participation and timing
-    'p_participated', 'p_participated_2023', 'p_mandavolunt', 'p_year_start', 'p_year_end', 
-    'p_ongoing', 'p_program_length', 'p_hourstrained', 'p_duration', 
-    
-    # Program characteristics
-    'p_comphours', 'p_otjactivities', 'p_cost', 'p_adequatefund', 'p_adequatefunddummy', 
-    
-    # Funding sources
-    'p_fund_gov', 'p_fund_org', 'p_fund_wrk', 'p_fund_union', 'p_fund_other', 
-    
-    # Program structure
-    'p_advocacy', 'p_advocacy_hier', 'p_responsibility', 'p_responsibility_hier', 
-    'p_application', 'p_selection', 
-    
-    # Selection criteria
+    'p_participated_2023', 'p_mandavolunt', 'p_year_start', 'p_year_end', 'p_ongoing', 
+    'p_program_length', 'p_hourstrained', 'p_duration', 'p_comphours', 'p_otjactivities', 
+    'p_cost', 'p_adequatefund', 'p_adequatefunddummy', 'p_fund_gov', 'p_fund_org', 
+    'p_fund_wrk', 'p_fund_union', 'p_fund_other', 'p_advocacy', 'p_advocacy_hier', 
+    'p_responsibility', 'p_responsibility_hier', 'p_application', 'p_selection', 
     'p_criteria_jobtitle', 'p_criteria_tenure', 'p_criteria_qualifications', 
     'p_criteria_assmskills', 'p_criteria_assmsmotivation', 'p_criteria_managerrec', 
-    'p_criteria_other', 
-    
-    # Target groups
-    'p_targetemp_c', 'p_targetemp_bul', 'p_targetemp_mm', 'p_targetemp_emp', 
-    'p_targetfunc_leg', 'p_targetfunc_hr', 'p_targetfunc_adm', 'p_targetfunc_it', 
-    'p_targetfunc_op', 'p_targetfunc_mrksal', 'p_targetfunc_rd', 'p_targetfunc_accfin', 
-    'p_targetfunc_cust', 
-    
-    # Implementation
-    'p_difloc', 'p_difstand', 'p_eligibility', 'p_part', 'p_part_exp', 
-    
-    # Design and pilot
-    'dd_pilot_length', 'dd_pilot_dummy', 'dd_pilot_ct', 'dd_pilot_over', 
-    'dd_design_board', 'dd_design_c', 'dd_design_hr', 'dd_design_bul', 'dd_design_mm', 
-    'dd_design_emp', 'dd_design_union', 'dd_design_ia', 'dd_external', 
-    
-    # External design
-    'dd_extdesign_ta', 'dd_extdesign_gov', 'dd_extdesign_acad', 'dd_extdesign_lsshelf', 
-    'dd_extdesign_custom', 'dd_extdesign_all', 'dd_delivery', 
-    
-    # Motivation
-    'mot_mgr', 'mot_wrk', 'mot_mgragg', 'mot_wrkagg', 
-    
-    # Incentives
-    'inc_mgr_fin', 'inc_mgr_nofin', 'inc_mgr_rec', 'inc_mgr_intrin', 'inc_mgr_none', 
-    'inc_mgr_all', 'inc_wrk_career', 'inc_wrk_risk', 'inc_wrk_fin', 'inc_wrk_nofin', 
-    'inc_wrk_cert', 'inc_wrk_rec', 'inc_wrk_strat', 'inc_wrk_job', 'inc_wrk_all', 
-    
-    # Evaluation and tracking
-    'exp_participation', 'p_finassessment', 'k_track_numberppl', 'k_track_hours', 
-    'k_track_attract', 'k_track_completion', 'k_track_changeskill', 'k_track_changecareer', 
-    'k_track_otherHR', 'k_track_busoutcomes', 'k_track_benefitstraining', 'k_track_other', 
-    'k_track_none', 
-    
-    # Review process
-    'k_review_BoD', 'k_review_c', 'k_review_hr', 'k_review_bul', 'k_review_mm', 
-    'k_review_emp', 'k_review_union', 'k_review_ia', 'k_review_other', 
-    'k_reviewcombined_c', 'k_reviewcombined_hr', 'k_reviewcombined_others', 'k_freq'
+    'p_criteria_other', 'p_targetemp_c', 'p_targetemp_bul', 'p_targetemp_mm', 
+    'p_targetemp_emp', 'p_targetfunc_leg', 'p_targetfunc_hr', 'p_targetfunc_adm', 
+    'p_targetfunc_it', 'p_targetfunc_op', 'p_targetfunc_mrksal', 'p_targetfunc_rd', 
+    'p_targetfunc_accfin', 'p_targetfunc_cust', 'p_difloc', 'p_difstand', 
+    'p_eligibility', 'p_part', 'p_part_exp', 'dd_pilot_length', 'dd_pilot_dummy', 
+    'dd_pilot_ct', 'dd_pilot_over', 'dd_design_board', 'dd_design_c', 'dd_design_hr', 
+    'dd_design_bul', 'dd_design_mm', 'dd_design_emp', 'dd_design_union', 'dd_design_ia', 
+    'dd_external', 'dd_extdesign_ta', 'dd_extdesign_gov', 'dd_extdesign_acad', 
+    'dd_extdesign_lsshelf', 'dd_extdesign_custom', 'dd_extdesign_all', 'dd_delivery', 
+    'mot_mgragg', 'mot_wrkagg', 'inc_mgr_fin', 'inc_mgr_nofin', 'inc_mgr_rec', 
+    'inc_mgr_intrin', 'inc_mgr_none', 'inc_mgr_all', 'inc_wrk_career', 'inc_wrk_risk', 
+    'inc_wrk_fin', 'inc_wrk_nofin', 'inc_wrk_cert', 'inc_wrk_rec', 'inc_wrk_strat', 
+    'inc_wrk_job', 'inc_wrk_all', 'exp_participation', 'p_finassessment'
 ]
 
 # Outcome variables to exclude
 outcomes_to_exclude = [
-    # Program continuation and investment
-    'p_cont_investment',
-    
-    # Challenge variables
-    'p_challenge_convincingemployees',
-    'p_challenge_selecting',
-    'p_challenge_progcompl',
-    'p_challenge_learning',
-    'p_challenge_newjob',
-    'p_challenge_convmanager',
-    'p_challenge_linkprogramcareer',
-    'p_challenge_effectiveness',
-    'p_challenge_scaling',
-    'p_challenge_determreturn',
-    'p_challenge_supportoutsideHR',
-    'p_challenge_funding',
-    'p_challenge_other',
-    
-    # Effectiveness and tracking
-    'p_effectiveness',
-    'k_track_hours'
+    'p_cont_investment', 
+    'p_challenge_determreturn', 'p_challenge_supportoutsideHR', 'p_challenge_funding', 
+    'p_challenge_other', 'p_effectiveness', 'p_adequatefund', 'p_adequatefunddummy', 
+    'p_challenge_funding', 'p_roi', 'roi1', 'roi2', 'roi3', 'roi4', 'roi5', 'roi_yes', 
+    'roi_pos', 'p_adequatefund', 'p_adequatefunddummy', 'p_challenge_funding', 
+    'p_challenge_convincingemployees', 'p_challenge_selecting', 'p_challenge_progcompl', 
+    'p_challenge_learning', 'p_challenge_newjob', 'p_challenge_convmanager', 
+    'p_challenge_linkprogramcareer', 'p_challenge_effectiveness', 'p_challenge_scaling', 
+    'p_challenge_determreturn', 'p_challenge_supportoutsideHR', 'p_challenge_funding', 
+    'p_challenge_other', 'p_fund_gov', 'p_fund_org', 'p_fund_wrk', 'p_fund_union', 
+    'p_fund_other', 'k_freq', 'tot_kpi_tracked', 'above_median_kpi_tracked',
+    'above_median_kpi_tracked_freq', 'kpi_input', 'kpiinput1', 'kpiinput2', 
+    'kpi_output_micro', 'kpioutput_micro1', 'kpioutput_micro2', 'kpi_output_macro', 
+    'kpioutput_macro1', 'kpioutput_macro2', 'k_track_attract', 'k_track_completion', 
+    'k_track_changeskill', 'k_track_changecareer', 'k_track_otherHR', 'k_track_busoutcomes', 
+    'k_track_benefitstraining', 'k_track_other', 'k_track_none', 'k_review_BoD', 
+    'k_review_c', 'k_review_hr', 'k_review_bul', 'k_review_mm', 'k_review_emp', 
+    'k_review_union', 'k_review_ia', 'k_review_other', 'k_reviewcombined_c', 
+    'k_reviewcombined_hr', 'k_reviewcombined_others', 'k_freq'
 ]
 
 def add_unique_keys(label_mapping, variable_labels):
