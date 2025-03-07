@@ -30,3 +30,4 @@ venv/
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.env

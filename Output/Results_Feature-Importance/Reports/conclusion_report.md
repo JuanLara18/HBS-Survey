@@ -8,9 +8,9 @@
   - AUC with categorical encoding: 0.7832
   - AUC with dummies: 0.7526
 
-- Including outcome variables results in an **deterioration** of the model:
-  - AUC with outcome variables: 0.7938
-  - AUC without outcome variables: 0.7938
+- Including outcome variables results in an **improvement** of the model:
+  - AUC with outcome variables: 0.9133
+  - AUC without outcome variables: 0.7956
 
 This analysis demonstrates the importance of feature selection and categorical variable encoding in model performance for distinguishing between Upskilling and Reskilling programs.
 
@@ -18,8 +18,8 @@ This analysis demonstrates the importance of feature selection and categorical v
 
 The top 5 most important features for distinguishing between program types are:
 
-1. **Union Share 1-25%** (importance: 229.0000)
-2. **Manager Incentive - Other Form of Recognition** (importance: 163.0000)
-3. **Selection Criteria: Assessment of Skills** (importance: 146.0000)
-4. **Firm Size (Numeric)** (importance: 137.0000)
-5. **Firm Size: 2500-9999** (importance: 134.0000)
+1. **ROI Measured** (importance: 330.0000)
+2. **Negative ROI** (importance: 287.0000)
+3. **External Redeployment** (importance: 172.0000)
+4. **Cross-departmental Networks** (importance: 140.0000)
+5. **Union Share 1-25%** (importance: 137.0000)
