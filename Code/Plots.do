@@ -9,7 +9,7 @@
 clear all
 set more off
 capture log close
-log using "../Output/Results/Unified_Cluster_Analysis.log", replace
+log using "../Output/Unified_Cluster_Analysis.log", replace
 
 // Global scheme and formatting settings
 set scheme s1manual
@@ -28,9 +28,9 @@ display "Dataset loaded with " c(N) " observations and " c(k) " variables."
 capture mkdir "../Output/Cluster_Visualizations"
 
 // Define cluster variables and their k values
-local cluster_vars "cluster_ch cluster_dh cluster_elbow cluster_gap cluster_consensus"
-local cluster_methods "CH DudaHart Elbow Gap Consensus"
-local cluster_ks "2 2 4 8 2"
+local cluster_vars "cluster_ch cluster_elbow cluster_gap"
+local cluster_methods "CH Elbow Gap"
+local cluster_ks "2 4 8"
 
 // Define color palette for better visualization
 local color1 "57 106 177"
@@ -69,7 +69,7 @@ foreach var of varlist `binary_vars' {
 ==========================================================================*/
 
 // Loop through each clustering method
-forvalues m = 1/5 {
+forvalues m = 1/3 {
     local cluster_var : word `m' of `cluster_vars'
     local method : word `m' of `cluster_methods'
     local k : word `m' of `cluster_ks'
@@ -850,6 +850,258 @@ foreach i of numlist 1/`k' {
         outreg2 using "../Output/Cluster_Visualizations/cluster_regression.xls", append
     }
 }
+
+
+/*==========================================================================
+    PART 5: ADDITIONAL ANALYSES TO COMPLETE REMAINING TASKS
+==========================================================================*/
+
+// 1. P-VALUE TABLE FOR CLUSTERS
+//==================================================================
+display "Creating p-value table for cluster differences..."
+
+// Create temporary dataset to store p-values
+tempfile pvals_file
+preserve
+    clear
+    set obs 1
+    
+    // Key variables to test
+    local test_vars "p_participated p_participated_2023 p_duration p_hourstrained p_cost p_eligibility p_part_exp p_fund_gov p_fund_org p_mandavolunt p_ongoing p_otjactivities p_targetemp_c p_targetemp_emp"
+    
+    // Create variables for p-values
+    foreach var of local test_vars {
+        gen pval_`var' = .
+        gen sig_`var' = ""
+    }
+    
+    // Save the temporary file
+    save `pvals_file'
+restore
+
+// Calculate p-values for each variable
+foreach var of local test_vars {
+    capture confirm numeric variable `var'
+    if !_rc {
+        quietly anova `var' cluster_ch
+        local pvalue = Ftail(e(df_m), e(df_r), e(F))
+        
+        // Determine significance level
+        local sig = ""
+        if `pvalue' < 0.01 {
+            local sig = "***"
+        }
+        else if `pvalue' < 0.05 {
+            local sig = "**"
+        }
+        else if `pvalue' < 0.1 {
+            local sig = "*"
+        }
+        
+        // Store p-value
+        preserve
+            use `pvals_file', clear
+            replace pval_`var' = `pvalue'
+            replace sig_`var' = "`sig'"
+            save `pvals_file', replace
+        restore
+    }
+}
+
+// Load results and export to Excel
+preserve
+    use `pvals_file', clear
+    
+    // Rename variables for better readability
+    foreach var of local test_vars {
+        rename pval_`var' pvalue_`var'
+    }
+    
+    // Export results
+    export excel using "../Output/Cluster_Visualizations/cluster_pvalues.xlsx", firstrow(variables) replace
+    export delimited using "../Output/Cluster_Visualizations/cluster_pvalues.csv", replace
+restore
+
+// 2. FEATURE IMPORTANCE FOR DISTINGUISHING UPSKILLING VS RESKILLING
+//==================================================================
+display "Analyzing feature importance for distinguishing program types..."
+
+// Use logistic regression to identify important variables
+preserve
+    // Create binary variable for reskilling vs upskilling
+    // First check if program is numeric or string
+    capture confirm string variable program
+    if !_rc {
+        // If string variable
+        gen is_reskill = (program == "Reskilling")
+    }
+    else {
+        // If numeric variable with labels
+        gen is_reskill = 0
+        replace is_reskill = 1 if program == 2  // Assuming 2 is the value for Reskilling
+        // Alternative approach using value labels
+        // decode program, gen(program_str)
+        // replace is_reskill = (program_str == "Reskilling")
+    }
+    
+    // List of variables to include (excluding outcomes)
+    local feature_vars "p_participated p_participated_2023 p_duration p_hourstrained p_cost p_eligibility p_part_exp p_fund_gov p_fund_org p_mandavolunt p_ongoing p_otjactivities p_targetemp_c p_targetemp_emp p_targetemp_mm p_program_length"
+    
+    // Run logistic regression
+    logistic is_reskill `feature_vars'
+    
+    // Calculate adjusted odds ratios and p-values
+    margins, dydx(*) post
+    
+    // Save results
+    matrix effects = r(b)'
+    matrix pvals = r(V)'
+    
+    // Convert to dataset
+    clear
+    svmat effects
+    svmat pvals
+    
+    // Create variable names
+    gen varname = ""
+    local counter = 1
+    foreach var of local feature_vars {
+        replace varname = "`var'" in `counter'
+        local counter = `counter' + 1
+    }
+    
+    // Calculate absolute values for importance ranking
+    gen abs_effect = abs(effects1)
+    
+    // Sort by importance
+    sort abs_effect
+    gen rank = _n
+    
+    // Create significance variable
+    gen sig = ""
+    replace sig = "*" if pvals1 < 0.1
+    replace sig = "**" if pvals1 < 0.05
+    replace sig = "***" if pvals1 < 0.01
+    
+    // Save results
+    export excel using "../Output/Cluster_Visualizations/feature_importance.xlsx", firstrow(variables) replace
+    export delimited using "../Output/Cluster_Visualizations/feature_importance.csv", replace
+restore
+
+// 3. REGRESSION USING CLUSTERS AS DEPENDENT VARIABLE
+//==================================================================
+display "Running regression with clusters as dependent variable..."
+
+// Create binary variable for cluster 2 vs cluster 1
+gen in_cluster2 = (cluster_ch == 2)
+
+// Firm characteristics for regression
+local firm_chars "f_large f_medium f_mne f_export f_public"
+
+// Run regression without stakeholders
+regress in_cluster2 `firm_chars'
+outreg2 using "../Output/Cluster_Visualizations/cluster_regression_updated.xls", replace ctitle("Base")
+
+// Add each HR variable sequentially
+foreach hr_var in p_targetemp_c p_targetemp_mm p_targetfunc_hr {
+    capture confirm variable `hr_var'
+    if !_rc {
+        regress in_cluster2 `firm_chars' `hr_var'
+        outreg2 using "../Output/Cluster_Visualizations/cluster_regression_updated.xls", append ctitle("`hr_var'")
+    }
+}
+
+// 4. WHAT FIRMS LOOK LIKE THAT GO INTO EACH CLUSTER
+//==================================================================
+display "Analyzing firm characteristics by cluster..."
+
+// Variables to analyze
+local firm_vars "f_large f_medium f_mne f_export f_public f_subsidy f_union50"
+
+// Create summary dataset
+preserve
+    clear
+    gen variable = ""
+    gen cluster1_mean = .
+    gen cluster2_mean = .
+    gen diff = .
+    gen pvalue = .
+    gen sig = ""
+    
+    // Save empty dataset
+    save "../Output/Cluster_Visualizations/firm_cluster_analysis.dta", replace
+restore
+
+// Analyze each variable
+local row = 1
+foreach var of local firm_vars {
+    capture confirm variable `var'
+    if !_rc {
+        // Calculate means by cluster
+        quietly summarize `var' if cluster_ch == 1
+        local c1_mean = r(mean)
+        
+        quietly summarize `var' if cluster_ch == 2
+        local c2_mean = r(mean)
+        
+        local diff = `c2_mean' - `c1_mean'
+        
+        // T-test for difference between clusters
+        quietly ttest `var', by(cluster_ch)
+        local p_val = r(p)
+        
+        // Determine significance
+        local sig = ""
+        if `p_val' < 0.01 local sig = "***"
+        else if `p_val' < 0.05 local sig = "**"
+        else if `p_val' < 0.1 local sig = "*"
+        
+        // Save results
+        preserve
+            use "../Output/Cluster_Visualizations/firm_cluster_analysis.dta", clear
+            set obs `row'
+            replace variable = "`var'" in `row'
+            replace cluster1_mean = `c1_mean' in `row'
+            replace cluster2_mean = `c2_mean' in `row'
+            replace diff = `diff' in `row'
+            replace pvalue = `p_val' in `row'
+            replace sig = "`sig'" in `row'
+            
+            save "../Output/Cluster_Visualizations/firm_cluster_analysis.dta", replace
+            local row = `row' + 1
+        restore
+    }
+}
+
+// Export final results
+preserve
+    use "../Output/Cluster_Visualizations/firm_cluster_analysis.dta", clear
+    
+    // Sort by significance
+    gsort -pvalue
+    
+    // Export to Excel and CSV
+    export excel using "../Output/Cluster_Visualizations/firm_cluster_analysis.xlsx", firstrow(variables) replace
+    export delimited using "../Output/Cluster_Visualizations/firm_cluster_analysis.csv", replace
+restore
+
+// 5. WHAT FIRMS LOOK LIKE THAT NEED WHICH TYPE OF SKILL CLUSTER
+//==================================================================
+display "Analyzing firm characteristics by skill cluster needs..."
+
+// Create cross-tabulation between cluster and program type
+tabulate cluster_ch program, row column
+
+// Export cross-tabulation to CSV
+preserve
+    tabout cluster_ch program using "../Output/Cluster_Visualizations/cluster_program_distribution.csv", replace cells(row col) format(1p) style(csv)
+restore
+
+display "Analysis complete. All results have been saved to '../Output/Cluster_Visualizations/'"
+
+
+display "Analysis complete. All results have been saved to '../Output/Cluster_Visualizations/'"
+
 
 // Close log file
 log close

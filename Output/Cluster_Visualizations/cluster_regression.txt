@@ -1,0 +1,20 @@
+	(1)
+VARIABLES	cluster_ch_2
+	
+f_large	0.329***
+	(0.0330)
+f_medium	0.419***
+	(0.0358)
+f_mne	-0.0319
+	(0.0332)
+f_export	0.159***
+	(0.0305)
+f_public	0.0481*
+	(0.0289)
+Constant	0.239***
+	(0.0277)
+	
+Observations	1,125
+R-squared	0.167
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
