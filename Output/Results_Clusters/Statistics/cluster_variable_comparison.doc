@@ -1,0 +1,2762 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs18
+{\footer\pard\qc\plain\f0\fs18\chpgn\par}
+{
+{\b\qc\line Program Characteristics Comparison - Table 1 }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx1500
+\fs18 \pard\intbl \qr { variable_label}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx2400
+\fs18 \pard\intbl \qr { tstat}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx3300
+\fs18 \pard\intbl \qr { pvalue}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx4200
+\fs18 \pard\intbl \qr { mean_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5100
+\fs18 \pard\intbl \qr { sd_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6000
+\fs18 \pard\intbl \qr { zscore_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6900
+\fs18 \pard\intbl \qr { mean_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx7800
+\fs18 \pard\intbl \qr { sd_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx8700
+\fs18 \pard\intbl \qr { zscore_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx9600
+\fs18 \pard\intbl \qr { mean_up}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx10500
+\fs18 \pard\intbl \qr { sd_up}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx11400
+\fs18 \pard\intbl \qr { mean_re}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx12300
+\fs18 \pard\intbl \qr { sd_re}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program targeted at senior management}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -22.274}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.247}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.432}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.658}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.803}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.398}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.465}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.544}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.592}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.492}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Small participation size}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   21.104}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.627}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.484}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.633}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.118}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.323}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.448}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.347}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.477}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.316}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.465}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Participation level (coarse)}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -19.520}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.513}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.728}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.598}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    2.340}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.680}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.423}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.965}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.812}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    2.019}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.808}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Number of participants}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -18.497}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {   41.944}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {   23.677}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.574}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {   65.892}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {   19.615}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.406}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {   54.282}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {   24.183}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {   57.133}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {   24.536}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target - Business unit leaders}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -18.492}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.217}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.412}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.574}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.707}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.455}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.406}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.478}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.522}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.500}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Number of participants since beginning}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -18.401}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.337}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.109}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.572}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    3.578}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.118}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.405}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    3.052}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.290}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    3.072}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.258}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Participants until end of 2023}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -17.412}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.895}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.213}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.548}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    4.117}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.120}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.388}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    3.557}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.256}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    3.648}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.339}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Expected participation}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -16.479}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {   53.182}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {   23.672}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.525}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {   74.052}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {   18.739}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.371}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {   63.633}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {   22.496}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {   66.625}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {   23.786}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program targeted at senior management and middle managers}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -15.407}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.170}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.376}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.497}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.587}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.493}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.351}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.330}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.471}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.472}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.500}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Organization funded}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   15.113}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {   74.265}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {   32.074}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.502}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {   45.537}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {   30.024}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.345}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {   60.139}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {   35.266}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {   55.290}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {   32.904}\cell
+\row}
+
+
+{\b\qc\line Program Characteristics Comparison - Table 2 }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx1500
+\fs18 \pard\intbl \qr { variable_label}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx2400
+\fs18 \pard\intbl \qr { tstat}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx3300
+\fs18 \pard\intbl \qr { pvalue}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx4200
+\fs18 \pard\intbl \qr { mean_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5100
+\fs18 \pard\intbl \qr { sd_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6000
+\fs18 \pard\intbl \qr { zscore_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6900
+\fs18 \pard\intbl \qr { mean_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx7800
+\fs18 \pard\intbl \qr { sd_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx8700
+\fs18 \pard\intbl \qr { zscore_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx9600
+\fs18 \pard\intbl \qr { mean_up}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx10500
+\fs18 \pard\intbl \qr { sd_up}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx11400
+\fs18 \pard\intbl \qr { mean_re}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx12300
+\fs18 \pard\intbl \qr { sd_re}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Ongoing program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   14.609}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.742}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.438}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.475}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.337}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.473}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.336}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.504}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.501}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.505}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.500}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - HR}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -14.109}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.320}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.467}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.461}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.712}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.453}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.326}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.493}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.501}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.588}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.493}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Union funded}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -13.687}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {0}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    5.562}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {   10.859}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.462}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {   15.250}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {   11.916}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.317}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    9.648}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {   12.484}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {   12.414}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {   12.295}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Participation eligibility}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -13.306}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {   51.363}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {   21.476}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.439}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {   67.393}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {   18.715}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.310}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {   59.349}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {   20.733}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {   61.717}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {   21.820}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Large participation size}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -11.912}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.139}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.347}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.398}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.458}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.282}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.312}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.464}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.336}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.473}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program with many training hours}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -10.525}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.281}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.450}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.356}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.584}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.493}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.252}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.360}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.481}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.526}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.500}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program effectiveness}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -10.440}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.350}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.354}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    2.659}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.481}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.250}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    2.448}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.507}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    2.588}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.508}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Subjective program effectiveness}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   10.440}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.650}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.354}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.341}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.481}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.250}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.552}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.507}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.412}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.508}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Worker funded}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -10.316}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    7.200}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {   14.406}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.360}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {   16.427}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {   14.614}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.247}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {   11.276}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {   15.130}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {   13.603}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {   15.211}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Total training hours per employee}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -10.276}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    3.009}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.151}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.348}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    3.701}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.086}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.246}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    3.168}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.073}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    3.583}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.194}\cell
+\row}
+
+
+{\b\qc\line Program Characteristics Comparison - Table 3 }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx1500
+\fs18 \pard\intbl \qr { variable_label}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx2400
+\fs18 \pard\intbl \qr { tstat}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx3300
+\fs18 \pard\intbl \qr { pvalue}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx4200
+\fs18 \pard\intbl \qr { mean_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5100
+\fs18 \pard\intbl \qr { sd_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6000
+\fs18 \pard\intbl \qr { zscore_c1}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx6900
+\fs18 \pard\intbl \qr { mean_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx7800
+\fs18 \pard\intbl \qr { sd_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx8700
+\fs18 \pard\intbl \qr { zscore_c2}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx9600
+\fs18 \pard\intbl \qr { mean_up}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx10500
+\fs18 \pard\intbl \qr { sd_up}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx11400
+\fs18 \pard\intbl \qr { mean_re}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx12300
+\fs18 \pard\intbl \qr { sd_re}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target - C-suite executives}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -10.274}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.067}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.249}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.348}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.308}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.462}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.246}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.170}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.376}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.234}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.424}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program end year}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   10.090}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    5.502}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.955}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.343}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    4.879}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.065}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.242}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    5.037}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.163}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    5.205}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.989}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program targeted at senior management and employees}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {  -10.023}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.135}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.342}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.341}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.399}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.490}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.241}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.236}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.425}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.327}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.469}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program targeted at all levels}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -9.822}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.118}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.323}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.334}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.370}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.483}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.236}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.210}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.407}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.304}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.460}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - IT}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -8.949}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.339}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.474}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.307}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.601}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.490}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.217}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.389}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.488}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.564}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.496}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Government funded}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -8.940}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    9.276}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {   14.979}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.315}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {   17.185}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {   13.935}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.216}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {   13.518}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {   16.159}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {   14.264}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {   13.963}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Criteria - Manager recommendation}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    8.939}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.475}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.406}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.144}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.352}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.321}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.264}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.442}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.306}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.462}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program targeted at employees}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    8.181}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.788}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.409}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.282}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.558}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.497}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.199}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.638}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.481}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.664}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.473}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target - Employees}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    8.181}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.788}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.409}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.282}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.558}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.497}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.199}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.638}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.481}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.664}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.473}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Estimated cost per person}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -8.158}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.238}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.964}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.281}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    2.689}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.875}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.199}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    2.426}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.956}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    2.555}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.924}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Was the program adequately funded?}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    6.906}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.026}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.387}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.240}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.857}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.414}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.170}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.948}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.376}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.913}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.433}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Medium participation size}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -6.710}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.234}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.424}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.233}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.423}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.494}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.165}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.341}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.474}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.348}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.477}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - Operations/Manufacturing}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    6.492}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.607}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.489}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.226}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.414}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.493}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.160}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.537}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.465}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.499}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Program participation}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    6.066}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.642}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.480}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.212}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.461}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.150}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.474}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.579}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.494}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program implemented in different locations}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    5.771}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.423}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.495}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.202}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.261}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.440}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.143}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.286}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.452}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.357}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.479}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Main person responsible for implementing the program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    5.687}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    3.333}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.169}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.199}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    2.962}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.006}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.141}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    3.162}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.132}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    3.084}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.062}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program length (years)}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    5.628}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.994}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.194}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.197}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.610}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.075}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.139}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.797}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.089}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.750}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.176}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Who has the primary responsibility to implement the program?}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    5.580}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.163}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.730}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.195}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.918}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.723}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.138}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    2.061}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.775}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.991}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.706}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - Research/Development}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -5.128}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.079}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.271}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.180}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.187}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.390}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.127}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.107}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.309}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.166}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.373}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program End Year (Clone)}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    5.078}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr { 2022.760}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.603}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.178}\cell
+\cellx6900
+\fs18 \pard\intbl \qr { 2022.542}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.775}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.126}\cell
+\cellx9600
+\fs18 \pard\intbl \qr { 2022.533}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.794}\cell
+\cellx11400
+\fs18 \pard\intbl \qr { 2022.700}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.651}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Advocate - HR}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -5.048}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.427}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.495}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.177}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.578}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.494}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.125}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.443}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.497}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.565}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.496}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - Legal}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -4.814}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.060}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.238}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.169}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.152}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.359}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.120}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.092}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.289}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.129}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.335}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Convincing managers to allow their employees to participate}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -4.802}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.245}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.430}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.169}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.379}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.486}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.119}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.317}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.466}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.328}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.470}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Finding new job}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -4.782}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.196}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.398}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.235}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.369}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.483}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.141}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {.}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {.}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.304}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.460}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - Accounting/Finance}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -4.664}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.236}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.425}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.164}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.366}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.482}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.116}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.218}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.414}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.376}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.485}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Responsibility - Senior management}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -4.441}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.172}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.378}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.156}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.285}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.452}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.110}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.242}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.429}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.235}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.425}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Match between advocate and responsible person}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -4.385}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.562}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.497}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.154}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.689}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.463}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.109}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.635}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.482}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.637}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.481}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Ensuring that participants learned new skills}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    4.280}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.547}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.498}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.151}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.419}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.494}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.106}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.441}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.497}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.493}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.500}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Selecting the right participants}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    4.277}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.431}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.496}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.150}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.308}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.462}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.106}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.308}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.462}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.394}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.489}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Mandatory or voluntary program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    4.153}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.680}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.467}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.146}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.558}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.497}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.103}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.546}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.498}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.652}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.477}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Continued Investment}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -4.013}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    3.792}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.034}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.141}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    4.029}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.933}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.100}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    3.775}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.023}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    4.037}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.940}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Program Completion}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -3.983}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.283}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.451}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.140}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.398}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.490}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.099}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.391}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.488}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.322}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.468}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { }\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    3.867}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.341}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.475}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.136}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.237}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.425}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.096}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.231}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.422}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.313}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.464}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Long duration program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -3.635}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.266}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.442}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.128}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.369}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.483}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.091}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.269}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.444}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.366}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.482}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Monitoring the effectiveness of the program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    3.583}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.000}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.401}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.491}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.126}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.299}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.458}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.089}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.345}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.476}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.339}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.474}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Program support}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -3.443}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.001}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.365}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.482}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.121}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.467}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.086}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.410}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.492}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.435}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.496}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Other funding source}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -3.323}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.001}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    3.697}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    9.831}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.121}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    5.600}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    8.929}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.083}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    5.418}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    9.498}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    4.429}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    9.234}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program duration}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -3.287}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.001}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.234}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.709}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.116}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    2.372}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.682}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.082}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    2.229}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.676}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    2.373}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.704}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - Customer service}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.978}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.003}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.421}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.494}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.105}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.334}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.472}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.074}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.328}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.470}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.399}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.490}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { }\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.927}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.003}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.290}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.454}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.103}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.373}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.484}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.073}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.319}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.467}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.352}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.478}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Determining financial returns of programs relative to other policies}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.919}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.004}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.249}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.433}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.103}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.178}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.382}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.073}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.199}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.399}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.213}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.410}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program targeted at middle managers}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.906}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.004}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.689}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.463}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.103}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.766}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.423}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.073}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.688}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.464}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.766}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.424}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target - Middle managers}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.906}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.004}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.689}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.463}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.103}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.766}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.423}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.073}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.688}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.464}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.766}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.424}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Scaling-up the program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.667}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.008}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.189}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.392}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.094}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.256}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.437}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.067}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.205}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.404}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.244}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.430}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - During the program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.622}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.009}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.798}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.402}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.093}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.857}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.350}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.066}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.795}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.404}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.859}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.348}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Main advocate for program investments}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.611}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.009}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    3.170}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.454}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.092}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    2.970}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.112}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.065}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    3.085}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.344}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    3.030}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.214}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Finding adequate resources to fund the program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.552}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.011}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.092}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.290}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.090}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.053}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.224}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.064}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.063}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.244}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.073}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.261}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program start year}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.312}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.021}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.766}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.176}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.082}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    2.932}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.189}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.058}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    2.736}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.162}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    2.951}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.195}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program Start Year (Clone)}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.312}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.021}\cell
+\cellx4200
+\fs18 \pard\intbl \qr { 2020.766}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.176}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.082}\cell
+\cellx6900
+\fs18 \pard\intbl \qr { 2020.932}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.189}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.058}\cell
+\cellx9600
+\fs18 \pard\intbl \qr { 2020.736}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.162}\cell
+\cellx11400
+\fs18 \pard\intbl \qr { 2020.951}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.195}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - Marketing/Sales}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.300}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.022}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.358}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.480}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.081}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.426}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.495}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.058}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.365}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.482}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.421}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.494}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Final assessment of skills improvement}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.271}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.023}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.148}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.356}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.080}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.103}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.304}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.057}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.127}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.333}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.118}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.323}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Individual criteria}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -2.231}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.026}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.716}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.452}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.108}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.799}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.402}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.086}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.657}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.476}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.826}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.380}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Who is the primary advocate for investments in the program?}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.129}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.033}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    2.021}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.850}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.075}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.923}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.703}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.053}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.980}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.814}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.952}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.736}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Who could apply}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.066}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.039}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.707}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.679}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.085}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.611}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.526}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.073}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.680}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.622}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.641}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.592}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Participants selected by the organization}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    2.059}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.040}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.256}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.437}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.085}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.190}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.393}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.073}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.196}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.398}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.234}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.424}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Program scaling}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    1.857}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.064}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.594}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.492}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.066}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.539}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.047}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.555}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.498}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.567}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.496}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Adequately funded Dummy}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    1.786}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.074}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.850}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.358}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.063}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.809}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.394}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.045}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.856}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.352}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.805}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.396}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Criteria - Prior assessment of knowledge/skills}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -1.645}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.101}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.606}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.490}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.080}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.674}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.469}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.063}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.507}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.501}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.727}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.446}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Advocate - Senior management}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    1.398}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.162}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.300}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.459}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.050}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.263}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.440}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.035}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.306}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.461}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.259}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.439}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { }\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    1.126}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.260}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.139}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.347}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.040}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.117}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.321}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.028}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.109}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.312}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.138}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.345}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Target function - Administration}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.930}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.353}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.350}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.477}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.033}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.323}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.468}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.023}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.288}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.453}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.366}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.482}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program targeted at middle managers and employees}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.901}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.368}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.539}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.032}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.511}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.023}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.515}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.528}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.500}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Criteria - Tenure}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -0.850}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.396}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.483}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.501}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.041}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.520}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.033}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.483}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.501}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.517}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.500}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Criteria - Previous skills/qualifications}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.820}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.412}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.708}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.456}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.040}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.674}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.469}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.032}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.662}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.474}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.706}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.456}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Includes on-the-job activities}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.608}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.543}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.092}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.290}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.022}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.082}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.274}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.015}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.098}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.298}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.078}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.268}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Indicator of on-the-job activities}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -0.608}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.543}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.908}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.290}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.022}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.918}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.274}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.015}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.902}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.298}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.922}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.268}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Fully compensated program}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.555}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.579}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.661}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.474}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.020}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.645}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.479}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.014}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.666}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.472}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.642}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.480}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Challenge - Other}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.427}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.669}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.006}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.080}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.015}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.005}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.067}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.011}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.007}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.081}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.004}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.067}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Responsibility - HR}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -0.390}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.697}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.519}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.014}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.531}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.010}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.483}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.556}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.497}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { ROI achieved}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -0.350}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.726}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    3.459}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    1.515}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.012}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    3.492}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    1.539}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.009}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    3.808}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    1.412}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    3.252}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    1.565}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program during working hours}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -0.338}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.736}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.367}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.537}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.012}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.378}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.530}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.008}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.367}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.546}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.378}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.524}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Criteria - Job title}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.295}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.768}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.530}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.500}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.014}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.517}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.501}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.011}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.453}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.499}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.565}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.497}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { }\cell
+\cellx2400
+\fs18 \pard\intbl \qr {    0.215}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.830}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    0.415}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.494}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {    0.010}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    0.406}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.492}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {   -0.008}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    0.323}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.469}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    0.462}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.499}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Program standardized across locations}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {   -0.089}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {    0.929}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {    1.710}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {    0.662}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {   -0.004}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {    1.715}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {    0.681}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {    0.002}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {    1.664}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {    0.653}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {    1.751}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {    0.688}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs18 \pard\intbl \ql { Criteria - Others}\cell
+\cellx2400
+\fs18 \pard\intbl \qr {.}\cell
+\cellx3300
+\fs18 \pard\intbl \qr {.}\cell
+\cellx4200
+\fs18 \pard\intbl \qr {0}\cell
+\cellx5100
+\fs18 \pard\intbl \qr {0}\cell
+\cellx6000
+\fs18 \pard\intbl \qr {0}\cell
+\cellx6900
+\fs18 \pard\intbl \qr {0}\cell
+\cellx7800
+\fs18 \pard\intbl \qr {0}\cell
+\cellx8700
+\fs18 \pard\intbl \qr {0}\cell
+\cellx9600
+\fs18 \pard\intbl \qr {0}\cell
+\cellx10500
+\fs18 \pard\intbl \qr {0}\cell
+\cellx11400
+\fs18 \pard\intbl \qr {0}\cell
+\cellx12300
+\fs18 \pard\intbl \qr {0}\cell
+\row}
+
+
+\writepositionforappend
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx12300 \cell
+\row}}}
